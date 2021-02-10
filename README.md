@@ -17,9 +17,15 @@
 
 # Use-case диаграмма системы:
 
-![](user.PNG)
+![](web/doc/user_case1.png)
 
+![](web/doc/user_case2.png)
 
+![](web/doc/user_case3.png)
+
+# ER-диаграмма сущностей системы:
+
+![](web/doc/er.png)
 
 
 
