@@ -1,47 +1,44 @@
 h1 БЕЗ БАЛАНСИРОВКИ
 
-> Цитата
-This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
-Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
-Licensed to The Apache Software Foundation, http://www.apache.org/
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>  
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/  
+Licensed to The Apache Software Foundation, http://www.apache.org/  
+
+Benchmarking localhost (be patient)  
+Completed 1000 requests  
+Completed 2000 requests  
+Completed 3000 requests  
+Completed 4000 requests  
+Completed 5000 requests  
+Completed 6000 requests  
+Completed 7000 requests  
+Completed 8000 requests  
+Completed 9000 requests  
+Completed 10000 requests  
+Finished 10000 requests  
 
 
+Server Software:        nginx/1.18.0  
+Server Hostname:        localhost  
+Server Port:            443  
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256  
+Server Temp Key:        X25519 253 bits  
+TLS Server Name:        localhost  
 
-Benchmarking localhost (be patient)
-Completed 1000 requests
-Completed 2000 requests
-Completed 3000 requests
-Completed 4000 requests
-Completed 5000 requests
-Completed 6000 requests
-Completed 7000 requests
-Completed 8000 requests
-Completed 9000 requests
-Completed 10000 requests
-Finished 10000 requests
+Document Path:          /api/v1  
+Document Length:        Variable  
 
-
-Server Software:        nginx/1.18.0
-Server Hostname:        localhost
-Server Port:            443
-SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
-Server Temp Key:        X25519 253 bits
-TLS Server Name:        localhost
-
-Document Path:          /api/v1
-Document Length:        Variable
-
-Concurrency Level:      10
-Time taken for tests:   27.761 seconds
-Complete requests:      10000
-Failed requests:        0
-Non-2xx responses:      10000
-Total transferred:      3970000 bytes
-HTML transferred:       1780000 bytes
-Requests per second:    360.22 [#/sec] (mean)
-Time per request:       27.761 [ms] (mean)
-Time per request:       2.776 [ms] (mean, across all concurrent requests)
-Transfer rate:          139.66 [Kbytes/sec] received
+Concurrency Level:      10  
+Time taken for tests:   27.761 seconds  
+Complete requests:      10000  
+Failed requests:        0  
+Non-2xx responses:      10000  
+Total transferred:      3970000 bytes  
+HTML transferred:       1780000 bytes  
+Requests per second:    360.22 [#/sec] (mean)  
+Time per request:       27.761 [ms] (mean)  
+Time per request:       2.776 [ms] (mean, across all concurrent requests)  
+Transfer rate:          139.66 [Kbytes/sec] received  
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
