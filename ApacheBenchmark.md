@@ -1,4 +1,4 @@
-# h1 БЕЗ БАЛАНСИРОВКИ
+# БЕЗ БАЛАНСИРОВКИ
 
 This is ApacheBench, Version 2.3 <$Revision: 1879490 $>  
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/  
@@ -59,7 +59,7 @@ Percentage of the requests served within a certain time (ms)
  100%    105 (longest request)  
 
 
-# h1 С БАЛАНСИРОВКОЙ
+# С БАЛАНСИРОВКОЙ
 This is ApacheBench, Version 2.3 <$Revision: 1879490 $>  
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/  
 Licensed to The Apache Software Foundation, http://www.apache.org/  
